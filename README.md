@@ -6,5 +6,6 @@ Are you a serious company respecting privacy of your customers? Prove it! Your c
 
 Do you lack developers who can deploy this tool for your company, or are there some modifications you would like to make? Developers from Agimo can be hired to help you.
 
-<b>CONTACT US</b>
+<b>Contact us</b>
+
 We are a multicultural company full of skilled people from all around the world. We speak 8 languages and provide a great scale of services including web development, system administration, design, video production and SEO optimization.
