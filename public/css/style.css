@@ -1,0 +1,435 @@
+*{
+    outline: none!important;
+}
+
+body{
+    background: #fafafa;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+a, a:hover{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    background: #3171ee;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 13px;
+    margin-top: 10px;
+    width: auto;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+textarea{
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"]{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.checkbox-modal{
+    margin-bottom: 0!important;
+}
+
+.offer-close{
+    background-color: #b1b1b1;
+    margin-left: 5px;
+}
+
+.request-sent-msg{
+    padding-right: 25px;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 0;
+    color: #6c757d;
+}
+
+.modal-body button{
+    margin-bottom: 0px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+b, strong {
+    font-weight: 500;
+}
+
+.buy-account{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #3171ee;
+    /* padding: 22px; */
+    color: white;
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    line-height: 63px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buy-account i{
+    margin: 0px;
+}
+
+.modal-offer{
+    max-width: 800px;
+}
+
+.modal-content{
+    border: 1px solid white;
+}
+
+.media-content img{
+    width: 100%;
+}
+
+.modal-offer img{
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border: 8px solid #f2f2f2;
+}
+
+.offer-sidebar {
+    background: #f7f7f7;
+    margin-top: -17.5px;
+    margin-bottom: -16px;
+    border-right: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+    padding-top: 15px;
+}
+
+.modal-opener{
+    margin-left: 25px;
+    margin-right: 7px;
+}
+
+.header{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 28px;
+    background: #3171ee;
+    min-height: 405px;
+}
+
+.header h2{
+    color: #ADC6F8;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.header h1{
+    margin: 15px 0px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header p{
+    margin: 0px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header-desc{
+    padding-top: 45px;
+    padding-left: 200px;
+}
+
+.header-desc img{
+    width: 150px;
+    position: absolute;
+    left: 10px;
+}
+
+.inactive{
+    opacity: 0.5;
+}
+
+.quickcontact{
+    background: #2a68e1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.quickcontact a{
+    color:white;
+}
+
+.quickcontact span{
+    margin-right: 10px;
+}
+
+.header-image img{
+    width: 53%;
+    margin-bottom: 116px;
+    float: right;
+    margin-top: 30px;
+}
+
+.social{
+    position: absolute;
+    top: 400px;
+    margin-left: 15px;
+}
+
+.social a{
+    color:white;
+}
+
+.social span{
+    color: #ADC6F8;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.social span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.option{
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 0.5px solid #eeeeee;
+}
+
+.option h2{
+    margin-top: 10px;
+    min-height: 37px;
+}
+
+.option button{
+    background: #3171ee;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 13px;
+    margin-top: 10px;
+}
+
+.options-list{
+    background: white;
+    margin-top: -73px;
+    padding: 30px;
+    padding-bottom: 0px;
+    border-left: 0.5px solid #eeeeee;
+    border-right: 0.5px solid #eeeeee;
+    border-radius: 5px;
+    border-bottom: 0.5px solid #eeeeee;
+}
+
+.available-actions{
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.comply h1{
+    font-size: 18px;
+}
+
+.company{
+    color: #000000;
+    font-size: 15px;
+}
+
+.company h1{
+    font-size: 16px;
+}
+
+.company p{
+    margin-bottom: 0px;
+}
+
+.products{
+    color: #000000;
+    font-size: 15px;
+}
+
+.products h1{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.products p{
+    margin-bottom: 0px;
+}
+
+.item i{
+    font-size: 35px;
+    color: #3e3e3e;
+}
+
+.we-comply{
+    font-size: 16px!important;
+    font-weight: 400!important;
+    margin-bottom: 75px!important;
+}
+
+.sidebar-details{
+    padding-top: 12px;
+}
+
+.footer{
+    background: white;
+    /* margin-left: -15px; */
+    margin-right: -15px;
+    /* width: 100vw; */
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    border: 0.5px solid #f1f1f1;
+    border-radius: 3px;
+}
+
+.alert-sent{
+    position: fixed;
+    z-index: 9999;
+    background: #2c9c59;
+    color: white;
+    width: 237px;
+    /* top: 0; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    bottom: 12px;
+    right: 25px;
+}
+
+.languages{
+    float: right;
+}
+
+.company-name{
+    position: absolute;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+    .header-desc img{
+        display: none;
+    }
+
+    .social{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        top: auto;
+    }
+    
+    .header-desc{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .sidebar-details{
+        padding-top: 23px;
+    }
+
+    .options-list {
+        margin-top: 0px;
+    }
+
+    .header{
+        margin-bottom: 0px;
+    }
+
+
+    .social-icons{
+        display: none;
+    }
+
+    .offer-sidebar{
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .company {
+        color: #000000;
+        font-size: 14px;
+    }
+
+    .products {
+        color: #000000;
+        font-size: 14px;
+    }
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+    .option p {
+        min-height: 70px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1319px) {
+
+    .option {
+        padding: 30px 20px;
+    }
+}
