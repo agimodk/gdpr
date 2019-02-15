@@ -42,7 +42,7 @@ return [
 
     'modal_get_offer' => 'Get your company page',
     'modal_description' => 'Would you like to get your company page on our portal? Fill the form and we will contact you.',
-    'modal_position' => 'Marketing manager at <a href="https://agimo.dk">Agimo</a>',
+    'modal_position' => 'Marketing manager at YourCompany',
     'modal_telephone' => 'Phone',
     'modal_request' => 'Submit request',
     'modal_close' => 'Close',
@@ -54,6 +54,6 @@ return [
     'modal_header' => 'Get your company page',
 
     // NEW
-    'agree' => 'I agree with general <a href="https://agimo.gdprportal.eu/privacy-policy" target="_blank">Privacy Policy</a>',
+    'agree' => 'I agree with general <a href="#" target="_blank">Privacy Policy</a>',
 
 ];

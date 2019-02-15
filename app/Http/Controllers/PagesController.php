@@ -41,7 +41,7 @@ class PagesController extends Controller
             'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
-        Mail::to(env("MAIL_TO_ADDRESS", "support@agimo.dk"))->send(new ContactDpo);
+        Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new ContactDpo);
         if (Mail::failures()) {
             return redirect('/data-protection-officer')->with('failure', trans('general.dpo_failure'));
         }else{
@@ -74,7 +74,7 @@ class PagesController extends Controller
             'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
-        Mail::to(env("MAIL_TO_ADDRESS", "support@agimo.dk"))->send(new Copyright);
+        Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Copyright);
         if (Mail::failures()) {
             return redirect('/copyright')->with('failure', trans('general.dcma_failure'));
         }else{
@@ -105,7 +105,7 @@ class PagesController extends Controller
             'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
-        Mail::to(env("MAIL_TO_ADDRESS", "support@agimo.dk"))->send(new Restriction);
+        Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Restriction);
         if (Mail::failures()) {
             return redirect('/data-restriction')->with('failure',  trans('general.rest_failure'));
         }else{
@@ -132,7 +132,7 @@ class PagesController extends Controller
             'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
-        Mail::to(env("MAIL_TO_ADDRESS", "support@agimo.dk"))->send(new Rectification);
+        Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Rectification);
         if (Mail::failures()) {
             return redirect('/rectification')->with('failure',  trans('general.rectif_error'));
         }else{
@@ -165,7 +165,7 @@ class PagesController extends Controller
             'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
-        Mail::to(env("MAIL_TO_ADDRESS", "support@agimo.dk"))->send(new Forget);
+        Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Forget);
         if (Mail::failures()) {
             return redirect('/forget-me')->with('failure', trans('general.forget_error'));
         }else{
@@ -204,7 +204,7 @@ class PagesController extends Controller
             'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
-        Mail::to(env("MAIL_TO_ADDRESS", "support@agimo.dk"))->send(new Access);
+        Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Access);
         if (Mail::failures()) {
             return redirect('/access-data')->with('failure', trans('general.access_error'));
         }else{
@@ -231,7 +231,7 @@ class PagesController extends Controller
             'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
-        Mail::to(env("MAIL_TO_ADDRESS", "support@agimo.dk"))->send(new Data);
+        Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Data);
         if (Mail::failures()) {
             return redirect('/request-data')->with('failure', trans('general.data_error'));
         }else{
@@ -276,7 +276,7 @@ class PagesController extends Controller
             'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
-        Mail::to(env("MAIL_TO_ADDRESS", "support@agimo.dk"))->send(new Unsubscribe);
+        Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Unsubscribe);
         if (Mail::failures()) {
             return redirect('/unsubscribe')->with('failure', trans('general.subs_error'));
         }else{
@@ -306,7 +306,7 @@ class PagesController extends Controller
         ];
 
         Mail::send('emails.offer', $request, function($message){
-            $message->to('info@agimo.dk', 'Agimo')->subject("New offer request");
+            $message->to('youremail@example.com', 'You')->subject("New offer request");
         });
 
         \Session::flash('message', '<div class="request-sent-msg">Your request was successfully sent.</div>' );

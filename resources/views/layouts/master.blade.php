@@ -88,11 +88,6 @@ CONTENT
 {{--PAGE CONTENT--}}
 @yield('body')
 
-{{--BUY ACCOUNT BTN--}}
-<div class="buy-account" data-toggle="modal" data-target="#offer">
-    <i class="fas fa-shopping-cart"></i>
-</div>
-
 {{--MESSAGE--}}
 <?php if(Session::has('message')): ?>
 <div class="alert alert-sent">
@@ -102,82 +97,6 @@ CONTENT
     </div>
 </div>
 <?php endif; ?>
-
-<!-- MODAL -->
-<div class="modal fade" id="offer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-offer" role="document">
-        <div class="modal-content">
-
-            <!-- HEADER -->
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">@lang('general.modal_header')</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-
-            <!-- BODY -->
-            <div class="modal-body">
-                <div class="row">
-
-                    <div class="col-12 col-md-4 offer-sidebar">
-                        <img src="https://agimo.dk/img/brigita.jpg" alt="Brigita Holendova">
-                        <strong>
-                            @lang('general.modal_get_offer')
-                        </strong>
-                        <p>
-                            @lang('general.modal_description')
-                        </p>
-                        <p>
-                        <div><b>Brigita Holendová</b></div>
-                        <div class="position-type">@lang('general.modal_position')</div>
-                        <br>
-                        <div>
-                            @lang('general.modal_telephone'): +45 93 92 88 11
-                        </div>
-                        <div>
-                            E-Mail: brigita@agimo.dk
-                        </div>
-                        </p>
-                        <p class="social-icons">
-                            <a href="https://www.facebook.com/agimo.dk" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                            <a href="https://www.linkedin.com/company/35537729/"><i class="fab fa-linkedin"></i></a>
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-md-8">
-                        <form action="/offer" method="post">
-
-                            @csrf
-
-                            <input type="text" name="name" placeholder="@lang('general.modal_name')" required>
-                            <input type="text" name="phone" placeholder="@lang('general.modal_phone')" required>
-                            <input type="email" name="email" placeholder="@lang('general.modal_email')" required>
-                            <input type="url" name="website" placeholder="@lang('general.modal_website')" required>
-                            <textarea name="message" id="" cols="30" rows="6" required placeholder="@lang('general.modal_textarea')"></textarea>
-                            <input type="checkbox" required name="agree" class="checkbox-modal">@lang('general.agree')
-
-                            @if(env('GOOGLE_RECAPTCHA_KEY'))
-                                <br><br>
-                                <div class="g-recaptcha"
-                                     data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}"
-                                     data-callback="recaptchaCallback">
-                                </div>
-                            @endif
-
-                            <div>
-                                <button type="submit" class="send-message disabled-button" disabled="">@lang('general.modal_request')</button>
-                                <button type="button" class="offer-close" data-dismiss="modal">@lang('general.modal_close')</button>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
 
 {{-- - - - - - - - - - - - - - - - - -
 SCRIPTS

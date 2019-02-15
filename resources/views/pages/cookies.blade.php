@@ -5,7 +5,7 @@
 @section('language.php', 'en')
 
 {{--PAGE TITLE--}}
-@section('title', 'Agimo / GDPR Privacy Center - Cookies')
+@section('title', 'YOU / GDPR Privacy Center - Cookies')
 
 {{--GOOGLE META TAGS--}}
 @section('meta-google')
@@ -100,35 +100,8 @@
                         </div>
 
                         <div class="col-md-12">
-                            <h2>@lang('cookie.sub_title')</h2>
-                            <br>
-                            <p>@lang('cookie.paragraph_1')</p>
-                            <p>@lang('cookie.paragraph_2')</p>
-                            <p>@lang('cookie.paragraph_3')</p>
-                            <p>@lang('cookie.paragraph_4')</p>
-                            <p>@lang('cookie.paragraph_5')</p>
-                            <p>@lang('cookie.paragraph_6')</p>
-                            <p><b>@lang('cookie.paragraph_7')</b></p>
-                            <p>@lang('cookie.paragraph_8')</p>
-                            <ul>
-                                <li>@lang('cookie.paragraph_9')</li>
-                                <li>@lang('cookie.paragraph_10')</li>
-                                <li>@lang('cookie.paragraph_11')</li>
-                                <li>@lang('cookie.paragraph_12')</li>
-                                <li>@lang('cookie.paragraph_13')</li>
-                                <li>@lang('cookie.paragraph_14')</li>
-                            </ul>
-                            <p><b>@lang('cookie.paragraph_15')</b></p>
-                            <p>@lang('cookie.paragraph_16')</p>
-                            <p>@lang('cookie.paragraph_17')</p>
-                            <p>@lang('cookie.paragraph_18')</p>
-                            <p>Agimo IVS <br>
-                                Porsvej 2 <br>
-                                9000 Aalborg <br>
-                                Denmark <br>
-                                +45 93 92 88 11 <br>
-                                info@agimo.dk
-                            </p>
+
+                            YOUR TEXT HERE
 
                         </div>
 

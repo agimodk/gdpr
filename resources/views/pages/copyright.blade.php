@@ -5,7 +5,7 @@
 @section('language.php', 'en')
 
 {{--PAGE TITLE--}}
-@section('title', 'Agimo / GDPR Privacy Center - Report Copyright Violation')
+@section('title', 'YOU / GDPR Privacy Center - Report Copyright Violation')
 
 {{--GOOGLE META TAGS--}}
 @section('meta-google')
@@ -100,14 +100,9 @@
                         </div>
 
                         <div class="col-md-12">
-                            <p> @lang('dcma.paragraph_1')</p>
-                            <ul>
-                                <li>@lang('dcma.paragraph_2')</li>
-                                <li>@lang('dcma.paragraph_3')</li>
-                                <li>@lang('dcma.paragraph_4')</li>
-                                <li>@lang('dcma.paragraph_5')</li>
-                                <li>@lang('dcma.paragraph_6')</li>
-                            </ul>
+
+                           YOUR TEXT HERE
+
                         </div>
 
                         <div class="col-md-12 copyright-form">

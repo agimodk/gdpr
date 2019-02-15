@@ -5,7 +5,7 @@
 @section('language.php', 'en')
 
 {{--PAGE TITLE--}}
-@section('title', 'Agimo / GDPR Privacy Center - Unsubscribe')
+@section('title', 'YOU / GDPR Privacy Center - Unsubscribe')
 
 {{--GOOGLE META TAGS--}}
 @section('meta-google')

@@ -5,7 +5,7 @@
 @section('language.php', 'en')
 
 {{--PAGE TITLE--}}
-@section('title', 'Agimo / GDPR Privacy Center - Contact Data Protection Officer')
+@section('title', 'YOU / GDPR Privacy Center - Contact Data Protection Officer')
 
 {{--GOOGLE META TAGS--}}
 @section('meta-google')

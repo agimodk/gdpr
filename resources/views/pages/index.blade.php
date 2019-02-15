@@ -5,7 +5,7 @@
 @section('language.php', 'en')
 
 {{--PAGE TITLE--}}
-@section('title', 'Agimo / GDPR Privacy Center')
+@section('title', 'YOU / GDPR Privacy Center')
 
 {{--GOOGLE META TAGS--}}
 @section('meta-google')
@@ -115,15 +115,6 @@
                                 <a href="/privacy-policy"><button>@lang('index.privacy_button')</button></a>
                             </div>
                         </div>
-
-                        {{--<div class="col-lg-4 col-md-6 col-sm-6">--}}
-                            {{--<div class="option item">--}}
-                                {{--<i class="fas fa-file-invoice"></i>--}}
-                                {{--<h2>@lang('index.terms_title')</h2>--}}
-                                {{--<p>@lang('index.terms_text')</p>--}}
-                                {{--<a href="/terms-and-conditions"><button>@lang('index.terms_button')</button></a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
 
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="option item">

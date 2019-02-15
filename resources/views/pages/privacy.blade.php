@@ -5,7 +5,7 @@
 @section('language.php', 'en')
 
 {{--PAGE TITLE--}}
-@section('title', 'Agimo / GDPR Privacy Center - Privacy Policy')
+@section('title', 'YOU / GDPR Privacy Center - Privacy Policy')
 
 {{--GOOGLE META TAGS--}}
 @section('meta-google')
@@ -100,39 +100,9 @@
                         </div>
 
                         <div class="col-md-12">
-                            <h2>@lang('privacy.sub_title')</h2>
-                            <br>
-                            <p>@lang('privacy.paragraph_1')</p>
-                            <p>@lang('privacy.paragraph_2')</p>
-                            <p><b>@lang('privacy.paragraph_3')</b></p>
-                            <p>@lang('privacy.paragraph_4')</p>
-                            <p><b>@lang('privacy.paragraph_5')</b></p>
-                            <p>@lang('privacy.paragraph_6')</p>
-                            <p>@lang('privacy.paragraph_7')</p>
-                            <p>@lang('privacy.paragraph_8')</p>
-                            <p><b>@lang('privacy.paragraph_9')</b></p>
-                            <p>@lang('privacy.paragraph_10')</p>
-                            <p>@lang('privacy.paragraph_11')</p>
-                            <p><b>@lang('privacy.paragraph_12')</b></p>
-                            <p>@lang('privacy.paragraph_13')</p>
-                            <p><b>@lang('privacy.paragraph_14')</b></p>
-                            <p>@lang('privacy.paragraph_15')</p>
-                            <p>@lang('privacy.paragraph_16')</p>
-                            <p><b>@lang('privacy.paragraph_17')</b></p>
-                            <p>@lang('privacy.paragraph_18')</p>
-                            <p>@lang('privacy.paragraph_19')</p>
-                            <p>@lang('privacy.paragraph_20')</p>
-                            <p>@lang('privacy.paragraph_21')</p>
-                            <p>@lang('privacy.paragraph_22')</p>
-                            <p>@lang('privacy.paragraph_23')</p>
 
-                            <p>Agimo IVS <br>
-                                Porsvej 2 <br>
-                                9000 Aalborg <br>
-                                Denmark <br>
-                                +45 93 92 88 11 <br>
-                                info@agimo.dk
-                            </p>
+                            YOUR TEXT HERE
+
                         </div>
 
                     </div>

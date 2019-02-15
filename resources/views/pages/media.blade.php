@@ -5,7 +5,7 @@
 @section('language.php', 'en')
 
 {{--PAGE TITLE--}}
-@section('title', 'Agimo / GDPR Privacy Center - Media Credits')
+@section('title', 'YOU / GDPR Privacy Center - Media Credits')
 
 {{--GOOGLE META TAGS--}}
 @section('meta-google')
@@ -101,16 +101,7 @@
 
                         <div class="col-md-12 media-content">
 
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="img/gdpr_old.png" alt="">
-                                </div>
-                                <div class="col-md-9">
-                                    <div><b>80 Devices in Flat Illustration</b></div>
-                                    <p><a href="https://graphicriver.net/item/80-devices-in-flat-illustration/23168284?s_rank=13">https://graphicriver.net/item/80-devices-in-flat-illustration/23168284?s_rank=13</a></p>
-                                    <p><b>Used on:</b> <a href="https://agimo.dk">Agimo</a></p>
-                                </div>
-                            </div>
+                           YOUR TEXT HERE
 
                         </div>
 

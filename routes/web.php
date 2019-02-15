@@ -44,8 +44,3 @@ Route::post('/data-restriction', 'PagesController@restrictionSendEmail');
 
 // MODAL OFFER
 Route::post('/offer', 'PagesController@offer');
-
-// AUTHENTICATION
-/* Logout modal won't open due to missing app.js file replaced by clean jQuery */
-// Auth::routes();
-// Route::get('/home', 'HomeController@index')->name('home');

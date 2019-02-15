@@ -36,10 +36,10 @@
 
                 <div class="social">
                     <span><a href="https://agimo.dk"><i class="fas fa-home"></i></a></span>
-                    <span><a href="https://fb.me/agimo.dk"><i class="fab fa-facebook"></i></a></span>
-                    <span><a href="https://www.linkedin.com/company/35537729"><i class="fab fa-linkedin"></i></a></span>
-                    <span><a href="mailto:info@agimo.dk"><i class="fas fa-envelope"></i></a></span>
-                    <span><a href="tel:+4593928811"><i class="fas fa-phone-square"></i></a></span>
+                    <span><a href="https://fb.me/you"><i class="fab fa-facebook"></i></a></span>
+                    <span><a href="https://www.linkedin.com/company/you"><i class="fab fa-linkedin"></i></a></span>
+                    <span><a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a></span>
+                    <span><a href="tel:+4500000000"><i class="fas fa-phone-square"></i></a></span>
                 </div>
 
         </div>

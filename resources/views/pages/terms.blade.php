@@ -5,7 +5,7 @@
 @section('language.php', 'en')
 
 {{--PAGE TITLE--}}
-@section('title', 'Agimo / GDPR Privacy Center - Terms and Conditions')
+@section('title', 'YOU / GDPR Privacy Center - Terms and Conditions')
 
 {{--GOOGLE META TAGS--}}
 @section('meta-google')
@@ -100,7 +100,9 @@
                         </div>
 
                         <div class="col-md-12">
-                            @lang('terms.description')
+
+                            YOUR TEXT
+
                         </div>
 
                     </div>
