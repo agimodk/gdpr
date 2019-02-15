@@ -10,8 +10,8 @@ Do you lack developers who can deploy this tool for your company, or are there s
 
 We are a multicultural company full of skilled people from all around the world. We speak 8 languages and provide a great scale of services including web development, system administration, design, video production and SEO optimization.
 
-Website: https://agimo.dk
-CVR-nr.: 40049673
-E-Mail: info@agimo.dk
-Sales: +45 93 92 88 11
+Website: https://agimo.dk<br
+CVR-nr.: 40049673<br
+E-Mail: info@agimo.dk<br
+Sales: +45 93 92 88 11<br
 Support: +45 93 92 87 11
