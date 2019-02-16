@@ -9,13 +9,14 @@ class LanguagesController extends Controller
     /**
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
-    public function changeLanguage(){
+    public function changeLanguage()
+    {
 
-        if(in_array(request('lang'), ["dk", "en"])){
+        if (in_array(request('lang'), ["dk", "en"])) {
             \App::setlocale(request('lang'));
             session(['locale' => request('lang')]);
             return back();
-        }else{
+        } else {
             return redirect("/");
         }
 

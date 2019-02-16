@@ -19,7 +19,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function index(){
+    public function index()
+    {
 
         return view('pages.index');
 
@@ -28,7 +29,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function dpo(){
+    public function dpo()
+    {
 
         return view('pages.dpo');
 
@@ -38,7 +40,8 @@ class PagesController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function dpoSendEmail(Request $request){
+    public function dpoSendEmail(Request $request)
+    {
 
         $request->validate([
             'first-name' => 'required',
@@ -53,7 +56,7 @@ class PagesController extends Controller
         Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new ContactDpo);
         if (Mail::failures()) {
             return redirect('/data-protection-officer')->with('failure', trans('general.dpo_failure'));
-        }else{
+        } else {
             return redirect('/data-protection-officer')->with('success', trans('general.dpo_success'));
         }
 
@@ -62,7 +65,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function cookies(){
+    public function cookies()
+    {
 
         return view('pages.cookies');
 
@@ -71,7 +75,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function copyright(){
+    public function copyright()
+    {
 
         return view('pages.copyright');
 
@@ -81,7 +86,8 @@ class PagesController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function dcmaSendEmail(Request $request){
+    public function dcmaSendEmail(Request $request)
+    {
 
         $request->validate([
             'first-name' => 'required',
@@ -96,7 +102,7 @@ class PagesController extends Controller
         Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Copyright);
         if (Mail::failures()) {
             return redirect('/copyright')->with('failure', trans('general.dcma_failure'));
-        }else{
+        } else {
             return redirect('/copyright')->with('success', trans('general.dcma_success'));
         }
 
@@ -105,7 +111,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function restriction(){
+    public function restriction()
+    {
 
         return view('pages.restriction');
 
@@ -115,7 +122,8 @@ class PagesController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function restrictionSendEmail(Request $request){
+    public function restrictionSendEmail(Request $request)
+    {
 
         $request->validate([
             'first-name' => 'required',
@@ -129,9 +137,9 @@ class PagesController extends Controller
 
         Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Restriction);
         if (Mail::failures()) {
-            return redirect('/data-restriction')->with('failure',  trans('general.rest_failure'));
-        }else{
-            return redirect('/data-restriction')->with('success',  trans('general.rest_success'));
+            return redirect('/data-restriction')->with('failure', trans('general.rest_failure'));
+        } else {
+            return redirect('/data-restriction')->with('success', trans('general.rest_success'));
         }
 
     }
@@ -139,7 +147,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function rectification(){
+    public function rectification()
+    {
 
         return view('pages.rectification');
 
@@ -149,7 +158,8 @@ class PagesController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function rectificationSendEmail(Request $request){
+    public function rectificationSendEmail(Request $request)
+    {
 
         $request->validate([
             'first-name' => 'required',
@@ -163,9 +173,9 @@ class PagesController extends Controller
 
         Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Rectification);
         if (Mail::failures()) {
-            return redirect('/rectification')->with('failure',  trans('general.rectif_error'));
-        }else{
-            return redirect('/rectification')->with('success',  trans('general.rectif_success'));
+            return redirect('/rectification')->with('failure', trans('general.rectif_error'));
+        } else {
+            return redirect('/rectification')->with('success', trans('general.rectif_success'));
         }
 
     }
@@ -173,7 +183,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function disclaimer(){
+    public function disclaimer()
+    {
 
         return view('pages.disclaimer');
 
@@ -182,7 +193,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function forget(){
+    public function forget()
+    {
 
         return view('pages.forget');
 
@@ -192,7 +204,8 @@ class PagesController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function forgetSendEmail(Request $request){
+    public function forgetSendEmail(Request $request)
+    {
 
         $request->validate([
             'first-name' => 'required',
@@ -207,7 +220,7 @@ class PagesController extends Controller
         Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Forget);
         if (Mail::failures()) {
             return redirect('/forget-me')->with('failure', trans('general.forget_error'));
-        }else{
+        } else {
             return redirect('/forget-me')->with('success', trans('general.forget_success'));
         }
 
@@ -216,7 +229,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function imprint(){
+    public function imprint()
+    {
 
         return view('pages.imprint');
 
@@ -225,7 +239,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function media(){
+    public function media()
+    {
 
         return view('pages.media');
 
@@ -234,7 +249,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function access(){
+    public function access()
+    {
 
         return view('pages.access');
 
@@ -244,7 +260,8 @@ class PagesController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function accessSendEmail(Request $request){
+    public function accessSendEmail(Request $request)
+    {
 
         $request->validate([
             'first-name' => 'required',
@@ -259,7 +276,7 @@ class PagesController extends Controller
         Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Access);
         if (Mail::failures()) {
             return redirect('/access-data')->with('failure', trans('general.access_error'));
-        }else{
+        } else {
             return redirect('/access-data')->with('success', trans('general.access_success'));
         }
 
@@ -268,7 +285,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function data(){
+    public function data()
+    {
 
         return view('pages.data');
 
@@ -278,7 +296,8 @@ class PagesController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function dataSendEmail(Request $request){
+    public function dataSendEmail(Request $request)
+    {
 
         $request->validate([
             'first-name' => 'required',
@@ -293,7 +312,7 @@ class PagesController extends Controller
         Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Data);
         if (Mail::failures()) {
             return redirect('/request-data')->with('failure', trans('general.data_error'));
-        }else{
+        } else {
             return redirect('/request-data')->with('success', trans('general.data_success'));
         }
 
@@ -302,7 +321,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function privacy(){
+    public function privacy()
+    {
 
         return view('pages.privacy');
 
@@ -311,7 +331,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function settings(){
+    public function settings()
+    {
 
         return view('pages.settings');
 
@@ -320,7 +341,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function terms(){
+    public function terms()
+    {
 
         return view('pages.terms');
 
@@ -329,7 +351,8 @@ class PagesController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function unsubscribe(){
+    public function unsubscribe()
+    {
 
         return view('pages.unsubscribe');
 
@@ -339,7 +362,8 @@ class PagesController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function unsubscribeSendEmail(Request $request){
+    public function unsubscribeSendEmail(Request $request)
+    {
 
         $request->validate([
             'first-name' => 'required',
@@ -354,7 +378,7 @@ class PagesController extends Controller
         Mail::to(env("MAIL_TO_ADDRESS", "youremail@example.com"))->send(new Unsubscribe);
         if (Mail::failures()) {
             return redirect('/unsubscribe')->with('failure', trans('general.subs_error'));
-        }else{
+        } else {
             return redirect('/unsubscribe')->with('success', trans('general.subs_success'));
         }
 
@@ -364,7 +388,8 @@ class PagesController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function offer(Request $request){
+    public function offer(Request $request)
+    {
 
         $request->validate([
             'name' => 'required',
@@ -384,11 +409,11 @@ class PagesController extends Controller
             'body' => $request->input('message')
         ];
 
-        Mail::send('emails.offer', $request, function($message){
+        Mail::send('emails.offer', $request, function ($message) {
             $message->to('youremail@example.com', 'You')->subject("New offer request");
         });
 
-        \Session::flash('message', '<div class="request-sent-msg">Your request was successfully sent.</div>' );
+        \Session::flash('message', '<div class="request-sent-msg">Your request was successfully sent.</div>');
 
         return back();
 

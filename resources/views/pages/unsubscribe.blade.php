@@ -10,32 +10,32 @@
 {{--GOOGLE META TAGS--}}
 @section('meta-google')
 
-    <meta name="description"            content="">
-    <meta name="keywords"               content="">
-    <meta name="author"                 content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
 
 @endsection
 
 {{--FACEBOOK META TAGS--}}
 @section('meta-facebook')
 
-    <meta property="og:url"             content="" />
-    <meta property="og:type"            content="" />
-    <meta property="og:title"           content="" />
-    <meta property="og:description"     content="" />
-    <meta property="og:image"           content="" />
+    <meta property="og:url" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content=""/>
 
 @endsection
 
 {{--TWITTER META TAGS--}}
 @section('meta-twitter')
 
-    <meta name="twitter:card"           content="">
-    <meta name="twitter:site"           content="">
-    <meta name="twitter:creator"        content="">
-    <meta name="twitter:title"          content="">
-    <meta name="twitter:description"    content="">
-    <meta name="twitter:image"          content="">
+    <meta name="twitter:card" content="">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
 
 @endsection
 
@@ -73,16 +73,16 @@
 @section('body')
 
     {{--SUBPAGE TITLE--}}
-    @section('subpage-title')
-        @lang('unsubscribe.page_title')
-    @endsection
+@section('subpage-title')
+    @lang('unsubscribe.page_title')
+@endsection
 
-    {{--SUBPAGE DESCRIPTION--}}
-    @section('subpage-description')
-        @lang('unsubscribe.page_description')
-    @endsection
+{{--SUBPAGE DESCRIPTION--}}
+@section('subpage-description')
+    @lang('unsubscribe.page_description')
+@endsection
 
-    @include('elements.header')
+@include('elements.header')
 
 <section class="options">
     <div class="container">
@@ -96,7 +96,8 @@
                 <div class="row">
 
                     <div class="col-md-12 available-options">
-                        <p class="available-actions"><a href="/"><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;@lang('general.return')</a></p>
+                        <p class="available-actions"><a href="/"><i
+                                    class="fas fa-arrow-left"></i>&nbsp;&nbsp;@lang('general.return')</a></p>
                     </div>
 
                     <div class="col-md-12">
@@ -130,27 +131,35 @@
 
                             <div>
                                 <label for="first-name">@lang('general.first_name')</label>
-                                <input id="first-name" type="text" name="first-name" placeholder="@lang('general.insert_first_name')" value="{{ old('first-name') }}" required>
+                                <input id="first-name" type="text" name="first-name"
+                                       placeholder="@lang('general.insert_first_name')" value="{{ old('first-name') }}"
+                                       required>
                             </div>
 
                             <div>
                                 <label for="last-name">@lang('general.last_name')</label>
-                                <input id="last-name" type="text" name="last-name" placeholder="@lang('general.insert_last_name')" value="{{ old('last-name') }}" required>
+                                <input id="last-name" type="text" name="last-name"
+                                       placeholder="@lang('general.insert_last_name')" value="{{ old('last-name') }}"
+                                       required>
                             </div>
 
                             <div>
                                 <label for="email">@lang('general.email')</label>
-                                <input id="email" type="text" name="email" placeholder="@lang('general.insert_email')" value="{{ old('email') }}"  required>
+                                <input id="email" type="text" name="email" placeholder="@lang('general.insert_email')"
+                                       value="{{ old('email') }}" required>
                             </div>
 
                             <div>
                                 <label for="phone">@lang('general.phone')</label>
-                                <input id="phone" type="text" name="phone" placeholder="@lang('general.insert_phone')" value="{{ old('phone') }}" required>
+                                <input id="phone" type="text" name="phone" placeholder="@lang('general.insert_phone')"
+                                       value="{{ old('phone') }}" required>
                             </div>
 
                             <div>
                                 <label for="message">@lang('general.message')</label>
-                                <textarea id="message" name="message" cols="30" rows="10" placeholder="@lang('general.insert_message')" required>{{ old('message') }}</textarea>
+                                <textarea id="message" name="message" cols="30" rows="10"
+                                          placeholder="@lang('general.insert_message')"
+                                          required>{{ old('message') }}</textarea>
                             </div>
 
                             <input type="checkbox" required name="agree">@lang('general.agree')
@@ -162,7 +171,8 @@
                                 </div>
                             @endif
 
-                            <button class="send-message disabled-button" disabled><i class="far fa-paper-plane"></i>@lang('general.send_request')</button>
+                            <button class="send-message disabled-button" disabled><i
+                                    class="far fa-paper-plane"></i>@lang('general.send_request')</button>
 
                         </form>
                     </div>

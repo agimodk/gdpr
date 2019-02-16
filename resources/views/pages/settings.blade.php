@@ -10,32 +10,32 @@
 {{--GOOGLE META TAGS--}}
 @section('meta-google')
 
-    <meta name="description"            content="">
-    <meta name="keywords"               content="">
-    <meta name="author"                 content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
 
 @endsection
 
 {{--FACEBOOK META TAGS--}}
 @section('meta-facebook')
 
-    <meta property="og:url"             content="" />
-    <meta property="og:type"            content="" />
-    <meta property="og:title"           content="" />
-    <meta property="og:description"     content="" />
-    <meta property="og:image"           content="" />
+    <meta property="og:url" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content=""/>
 
 @endsection
 
 {{--TWITTER META TAGS--}}
 @section('meta-twitter')
 
-    <meta name="twitter:card"           content="">
-    <meta name="twitter:site"           content="">
-    <meta name="twitter:creator"        content="">
-    <meta name="twitter:title"          content="">
-    <meta name="twitter:description"    content="">
-    <meta name="twitter:image"          content="">
+    <meta name="twitter:card" content="">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
 
 @endsection
 
@@ -73,31 +73,32 @@
 @section('body')
 
     {{--SUBPAGE TITLE--}}
-    @section('subpage-title')
-        Privacy Settings
-    @endsection
+@section('subpage-title')
+    Privacy Settings
+@endsection
 
-    @include('elements.header')
+@include('elements.header')
 
-    <section class="options">
-        <div class="container">
-            <div class="row">
+<section class="options">
+    <div class="container">
+        <div class="row">
 
-                <div class="col-md-3 company-details">
-                    @include('elements.sidebar')
-                </div>
+            <div class="col-md-3 company-details">
+                @include('elements.sidebar')
+            </div>
 
-                <div class="col-md-9 options-list">
-                    <div class="row">
-                        <div class="col-md-12 available-options">
-                            <p class="available-actions"><a href="/"><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;@lang('general.return')</a></p>
-                        </div>
+            <div class="col-md-9 options-list">
+                <div class="row">
+                    <div class="col-md-12 available-options">
+                        <p class="available-actions"><a href="/"><i
+                                    class="fas fa-arrow-left"></i>&nbsp;&nbsp;@lang('general.return')</a></p>
                     </div>
                 </div>
-
             </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
 @endsection
 

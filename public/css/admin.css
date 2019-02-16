@@ -1,8 +1,9 @@
-.navigation a{
+.navigation a {
     text-decoration: none;
     color: black;
 }
-.pages{
+
+.pages {
     display: none;
     padding-left: 15px;
 }

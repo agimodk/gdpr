@@ -1,8 +1,8 @@
-*{
-    outline: none!important;
+* {
+    outline: none !important;
 }
 
-body{
+body {
     background: #fafafa;
 }
 
@@ -14,7 +14,7 @@ h2 {
     font-size: 18px;
 }
 
-a, a:hover{
+a, a:hover {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -24,7 +24,7 @@ button a {
     color: white;
 }
 
-button{
+button {
     cursor: pointer;
     background: #3171ee;
     color: white;
@@ -43,7 +43,7 @@ button{
 input[type="text"],
 input[type="email"],
 input[type="url"],
-textarea{
+textarea {
     background-color: #f1f1f1;
     width: 100%;
     padding: 10px;
@@ -53,21 +53,21 @@ textarea{
     margin-bottom: 15px;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     margin-right: 10px;
     margin-bottom: 20px;
 }
 
-.checkbox-modal{
-    margin-bottom: 0!important;
+.checkbox-modal {
+    margin-bottom: 0 !important;
 }
 
-.offer-close{
+.offer-close {
     background-color: #b1b1b1;
     margin-left: 5px;
 }
 
-.request-sent-msg{
+.request-sent-msg {
     padding-right: 25px;
 }
 
@@ -77,11 +77,11 @@ input[type="checkbox"]{
     color: #6c757d;
 }
 
-.modal-body button{
+.modal-body button {
     margin-bottom: 0px;
 }
 
-i{
+i {
     margin-right: 10px;
 }
 
@@ -89,7 +89,7 @@ b, strong {
     font-weight: 500;
 }
 
-.buy-account{
+.buy-account {
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -104,23 +104,23 @@ b, strong {
     cursor: pointer;
 }
 
-.buy-account i{
+.buy-account i {
     margin: 0px;
 }
 
-.modal-offer{
+.modal-offer {
     max-width: 800px;
 }
 
-.modal-content{
+.modal-content {
     border: 1px solid white;
 }
 
-.media-content img{
+.media-content img {
     width: 100%;
 }
 
-.modal-offer img{
+.modal-offer img {
     width: 80%;
     border-radius: 50%;
     margin-bottom: 20px;
@@ -139,12 +139,12 @@ b, strong {
     padding-top: 15px;
 }
 
-.modal-opener{
+.modal-opener {
     margin-left: 25px;
     margin-right: 7px;
 }
 
-.header{
+.header {
     padding-top: 50px;
     padding-bottom: 20px;
     margin-bottom: 28px;
@@ -152,86 +152,86 @@ b, strong {
     min-height: 405px;
 }
 
-.header h2{
+.header h2 {
     color: #ADC6F8;
     font-size: 16px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
-.header h1{
+.header h1 {
     margin: 15px 0px;
     color: white;
     font-size: 30px;
     font-weight: 600;
 }
 
-.header p{
+.header p {
     margin: 0px;
     color: white;
     font-size: 30px;
     font-weight: 600;
 }
 
-.header-desc{
+.header-desc {
     padding-top: 45px;
     padding-left: 200px;
 }
 
-.header-desc img{
+.header-desc img {
     width: 150px;
     position: absolute;
     left: 10px;
 }
 
-.inactive{
+.inactive {
     opacity: 0.5;
 }
 
-.quickcontact{
+.quickcontact {
     background: #2a68e1;
     padding-top: 5px;
     padding-bottom: 5px;
     color: white;
 }
 
-.quickcontact a{
-    color:white;
+.quickcontact a {
+    color: white;
 }
 
-.quickcontact span{
+.quickcontact span {
     margin-right: 10px;
 }
 
-.header-image img{
+.header-image img {
     width: 53%;
     margin-bottom: 116px;
     float: right;
     margin-top: 30px;
 }
 
-.social{
+.social {
     position: absolute;
     top: 400px;
     margin-left: 15px;
 }
 
-.social a{
-    color:white;
+.social a {
+    color: white;
 }
 
-.social span{
+.social span {
     color: #ADC6F8;
     margin-right: 8px;
     display: inline-block;
 }
 
-.social span:hover{
+.social span:hover {
     color: white;
     cursor: pointer;
 }
 
-.option{
+.option {
     background: #fafafa;
     border-radius: 5px;
     padding: 30px;
@@ -240,12 +240,12 @@ b, strong {
     border: 0.5px solid #eeeeee;
 }
 
-.option h2{
+.option h2 {
     margin-top: 10px;
     min-height: 37px;
 }
 
-.option button{
+.option button {
     background: #3171ee;
     color: white;
     border: none;
@@ -256,7 +256,7 @@ b, strong {
     margin-top: 10px;
 }
 
-.options-list{
+.options-list {
     background: white;
     margin-top: -73px;
     padding: 30px;
@@ -267,59 +267,59 @@ b, strong {
     border-bottom: 0.5px solid #eeeeee;
 }
 
-.available-actions{
+.available-actions {
     padding-bottom: 25px;
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-.comply h1{
+.comply h1 {
     font-size: 18px;
 }
 
-.company{
+.company {
     color: #000000;
     font-size: 15px;
 }
 
-.company h1{
+.company h1 {
     font-size: 16px;
 }
 
-.company p{
+.company p {
     margin-bottom: 0px;
 }
 
-.products{
+.products {
     color: #000000;
     font-size: 15px;
 }
 
-.products h1{
+.products h1 {
     font-size: 16px;
     margin-top: 20px;
 }
 
-.products p{
+.products p {
     margin-bottom: 0px;
 }
 
-.item i{
+.item i {
     font-size: 35px;
     color: #3e3e3e;
 }
 
-.we-comply{
-    font-size: 16px!important;
-    font-weight: 400!important;
-    margin-bottom: 75px!important;
+.we-comply {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    margin-bottom: 75px !important;
 }
 
-.sidebar-details{
+.sidebar-details {
     padding-top: 12px;
 }
 
-.footer{
+.footer {
     background: white;
     /* margin-left: -15px; */
     margin-right: -15px;
@@ -333,7 +333,7 @@ b, strong {
     border-radius: 3px;
 }
 
-.alert-sent{
+.alert-sent {
     position: fixed;
     z-index: 9999;
     background: #2c9c59;
@@ -346,11 +346,11 @@ b, strong {
     right: 25px;
 }
 
-.languages{
+.languages {
     float: right;
 }
 
-.company-name{
+.company-name {
     position: absolute;
 }
 
@@ -362,23 +362,23 @@ b, strong {
 /* Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
 
-    .header-desc img{
+    .header-desc img {
         display: none;
     }
 
-    .social{
+    .social {
         position: relative;
         width: 100%;
         text-align: center;
         top: auto;
     }
-    
-    .header-desc{
+
+    .header-desc {
         padding-left: 0px;
         text-align: center;
     }
 
-    .sidebar-details{
+    .sidebar-details {
         padding-top: 23px;
     }
 
@@ -386,16 +386,16 @@ b, strong {
         margin-top: 0px;
     }
 
-    .header{
+    .header {
         margin-bottom: 0px;
     }
 
 
-    .social-icons{
+    .social-icons {
         display: none;
     }
 
-    .offer-sidebar{
+    .offer-sidebar {
         margin-bottom: 20px;
     }
 

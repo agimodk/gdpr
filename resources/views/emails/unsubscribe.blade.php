@@ -2,7 +2,7 @@
     <tr>
         <td align="center">
             <br>
-                AGIMO | GDPR Request
+            AGIMO | GDPR Request
             <br><br>
         </td>
     </tr>
@@ -26,7 +26,8 @@
                 </tr>
                 <tr>
                     <td style="background: #ba2c2c;color:white;padding:20px;border-radius:5px;">
-                        Before taking any action, always verify if the person requesting the data / change is the real owner of this user account!
+                        Before taking any action, always verify if the person requesting the data / change is the real
+                        owner of this user account!
                     </td>
                 </tr>
             </table>
