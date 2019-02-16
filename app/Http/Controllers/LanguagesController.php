@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 
 class LanguagesController extends Controller
 {
-
+    /**
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
     public function changeLanguage(){
 
         if(in_array(request('lang'), ["dk", "en"])){
